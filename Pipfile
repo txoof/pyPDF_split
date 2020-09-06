@@ -9,6 +9,7 @@ verify_ssl = true
 ipykernel = "*"
 pypdf2 = "*"
 pypdf3 = "*"
+pysimplegui = "*"
 
 [requires]
 python_version = "3.8"
