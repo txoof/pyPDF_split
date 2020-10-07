@@ -10,6 +10,7 @@ ipykernel = "*"
 pypdf2 = "*"
 pypdf3 = "*"
 pysimplegui = "*"
+pyinstaller = "*"
 
 [requires]
 python_version = "3.8"
