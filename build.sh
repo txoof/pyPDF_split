@@ -17,12 +17,12 @@ fi
 #echo "creating archive"
 #pushd ./dist
 #tar cvzf ../../$appname.tgz ./$appname
-~/bin/develtools/codesign.py pyPDF.ini
+~/bin/develtools/codesign.py ./pyPDF.ini
 
 #popd
 popd
 
-echo "run: $ git commit -am "update" 
+echo "run: $ git commit -am 'update build'" 
 echo "$ git push"
 echo "remember to push to github"
 
