@@ -14,13 +14,15 @@ else
   exit 1
 fi
 
-echo "creating archive"
-pushd ./dist
-tar cvzf ../../$appname.tgz ./$appname
+#echo "creating archive"
+#pushd ./dist
+#tar cvzf ../../$appname.tgz ./$appname
+~/bin/develtools/codesign.py pyPDF.ini
 
-
+#popd
 popd
-popd
 
+echo "run: $ git commit -am "update" 
+echo "$ git push"
 echo "remember to push to github"
 

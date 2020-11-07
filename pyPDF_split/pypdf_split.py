@@ -37,7 +37,7 @@ def get_breaks(file):
     for page in range(0, source_pdf.numPages):
         this_record = ({'id': None, 'pages': []})
         text = source_pdf.getPage(page).extractText()
-        student_number = re.search('student\W?id:\W?(\d{5,})', text, re.IGNORECASE)
+        student_number = re.search('student\W?id:\W?(\d{6})', text, re.IGNORECASE)
         
         if student_number:
             page_breaks.append(last_record)
@@ -83,7 +83,7 @@ def split_pdf(file, page_breaks):
             
         
         try:
-            output_path = dest_path/f'{record["id"]}.pdf'
+            output_path = dest_path/f'{record["id"]} - {file.name}.pdf'
             output_path.parent.mkdir(exist_ok=True)
             with open(str(output_path), "wb") as dest_file:
                 pdf_writer.write(dest_file)
@@ -142,5 +142,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
 
 
