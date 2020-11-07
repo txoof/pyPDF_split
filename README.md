@@ -18,7 +18,7 @@ aaron.ciuffo@gmail.com
 ## Quick Start
 **NOTE:** If this is the first time you've run this program, please see the [full instructions](#FullInstructions) below.
 
-### [Download link](https://github.com/txoof/pyPDF_split/raw/master/pyPDF_split.tgz)
+#### [Download link](https://github.com/txoof/pyPDF_split/blob/master/pypdfsplit.pkg)
 
 1. Launch the `py_pdfsplit` application from your `Applications` folder by double clicking on it.
 2. When prompted, locate a PDF that needs to be split by clicking on the `Browse` button -- this will launch a Finder window allowing you find and choose a single PDF file
@@ -30,8 +30,9 @@ aaron.ciuffo@gmail.com
 
 <a name='FullInstructions'></a>
 ## Full Instructions
-1. Download the latest version of pyPDF_split [here](https://github.com/txoof/pyPDF_split/raw/master/pyPDF_split.tgz)
-2. Locate the downloaded file in the Downloads folder
+1. Download the latest version of pyPDF_split [here](https://github.com/txoof/pyPDF_split/blob/master/pypdfsplit.pkg)
+2. Locate the downloaded file in the Downloads folder and double click on the `.pkg` file
+3. The program will be installed in the `/Applications` folder
 3. Double click on the `.tgz` file to decompress it
 4. Move the `py_pdfsplit` file into your `Applications` folder
     * **NOTE:** if you simply double click on the application, you will likely see this warning:
