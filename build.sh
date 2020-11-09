@@ -17,7 +17,7 @@ fi
 #echo "creating archive"
 #pushd ./dist
 #tar cvzf ../../$appname.tgz ./$appname
-~/bin/develtools/pycodesign.py ./pyPDF.ini
+~/bin/develtools/pycodesign.py pyPDF.ini
 
 #popd
 popd
