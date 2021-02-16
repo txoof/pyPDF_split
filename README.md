@@ -35,14 +35,7 @@ aaron.ciuffo@gmail.com
 3. The program will be installed in the `/Applications` folder
 3. Double click on the `.tgz` file to decompress it
 4. Move the `py_pdfsplit` file into your `Applications` folder
-    * **NOTE:** if you simply double click on the application, you will likely see this warning:
-    ![Unidentified Developer Warning](./docs/unidentified_devel.png)
-    * Continue to step 5!
-5. Locate the `py_pdfsplit` file in your `Applications` folder and right click (or Ctrl+click) and choose `Open`
-    * You will see the following prompt:
-    ![Open program from unidentified developer](./docs/open_unidentified.png)
-    * Click `Open`
-    * It may take several seconds, but the application and a terminal window will open.
+5. Double Click on the pyPDF_Split icon to open the application
 2. When prompted, locate a PDF that needs to be split by clicking on the `Browse` button -- this will launch a Finder window allowing you find and choose a single PDF file
     ![GUI Browse Image](./docs/gui_browse.png)
 3. Click `Ok` when ready
