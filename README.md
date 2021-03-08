@@ -3,6 +3,9 @@ Split PDFs with multiple student records into individual PDFs.
 
 pyPDF_split searches a PDF for the string `StudentID:NNNNNNN` and splits the PDF into individual PDFs in a sub-folder with the StudentID embedded in the new file name.
 
+If the pyPDF program is unavialble or does not work, see these [backup instructions](https://github.com/txoof/pyPDF_split/blob/master/Backup_Plan.md#backup-plan-for-pypdfsplit)
+
+
 pyPDF_split can handle student IDs in the following formats:
 
 * `StudentID:123456`; `StudentId:123456`; `STUDENTID:123456`; `studentid:123456` 
@@ -32,10 +35,8 @@ aaron.ciuffo@gmail.com
 ## Full Instructions
 1. Download the latest version of pyPDF_split [here](https://github.com/txoof/pyPDF_split/blob/master/pypdfsplit.pkg)
 2. Locate the downloaded file in the Downloads folder and double click on the `.pkg` file
-    * **NOTE** this process requires an administrator password
-    * IT Support can install this for you -- please share these instructions with IT Support and request the program is installed remotely
-3. Locate the program in the `/Applications` folder
-5. Double Click on the pyPDF_Split icon to open the application
+   * You will likely need to enter and administrator password
+3. The program will be installed in the `/Applications` folder
 2. When prompted, locate a PDF that needs to be split by clicking on the `Browse` button -- this will launch a Finder window allowing you find and choose a single PDF file
     ![GUI Browse Image](./docs/gui_browse.png)
 3. Click `Ok` when ready
@@ -63,5 +64,5 @@ $ ./build.sh
 ```
 
     [NbConvertApp] Converting notebook README.ipynb to markdown
-    [NbConvertApp] Writing 3322 bytes to README.md
+    [NbConvertApp] Writing 3661 bytes to README.md
 
