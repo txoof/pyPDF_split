@@ -1,10 +1,9 @@
 # pyPDF_split
 Split PDFs with multiple student records into individual PDFs.
 
-pyPDF_split searches a PDF for the string `StudentID:NNNNNNN` and splits the PDF into individual PDFs in a sub-folder with the StudentID embedded in the new file name.
-
 If the pyPDF program is unavialble or does not work, see these [backup instructions](https://github.com/txoof/pyPDF_split/blob/master/Backup_Plan.md#backup-plan-for-pypdfsplit)
 
+pyPDF_split searches a PDF for the string `StudentID:NNNNNNN` and splits the PDF into individual PDFs in a sub-folder with the StudentID embedded in the new file name.
 
 pyPDF_split can handle student IDs in the following formats:
 
