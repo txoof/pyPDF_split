@@ -18,7 +18,10 @@ Watch this [short video](https://drive.google.com/file/d/1cnczJOoZiXvS8-2Xsebxic
 6. Click *Outpt Options* and choose the following:
     * *Target Folder* > "A Folder on My Computer"
         - Click the "Choose..." button to select or create an output folder -- you may create a folder anywhere on your computer
-    * *File Labeling
+    * *File Labeling* > "Use bookmark names for filenames"
+7. Click *Ok* to close this menu
+8. Click *Split* to split the PDF
+    * Split PDFs will appear in the folder you choose. These can be inserted manually into Student Cumulative folders
 
 
 
@@ -26,3 +29,7 @@ Watch this [short video](https://drive.google.com/file/d/1cnczJOoZiXvS8-2Xsebxic
 !jupyter-nbconvert --to markdown Backup_Plan.ipynb
 
 ```
+
+    [NbConvertApp] Converting notebook Backup_Plan.ipynb to markdown
+    [NbConvertApp] Writing 1181 bytes to Backup_Plan.md
+
