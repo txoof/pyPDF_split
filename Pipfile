@@ -9,6 +9,7 @@ verify_ssl = true
 ipykernel = "*"
 pypdf2 = "*"
 pypdf3 = "*"
+pdfplumber = "*"
 pysimplegui = "*"
 pyinstaller = "*"
 
