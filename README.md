@@ -1,9 +1,10 @@
 # pyPDF_split
 Split PDFs with multiple student records into individual PDFs.
 
+pyPDF_split searches a PDF for the string `StudentID:NNNNNNN` and splits the PDF into individual PDFs in a sub-folder with the StudentID embedded in the new file name.
+
 If the pyPDF program is unavialble or does not work, see these [backup instructions](https://github.com/txoof/pyPDF_split/blob/master/Backup_Plan.md#backup-plan-for-pypdfsplit)
 
-pyPDF_split searches a PDF for the string `StudentID:NNNNNNN` and splits the PDF into individual PDFs in a sub-folder with the StudentID embedded in the new file name.
 
 pyPDF_split can handle student IDs in the following formats:
 
@@ -58,10 +59,19 @@ $ ./build.sh
 ```
 
 
+## Thanks
+* picobas - move to pdfplumber -- appears to be more reliable
+
+
+```python
+
+```
+
+
 ```python
 !jupyter-nbconvert --to markdown README.ipynb
 ```
 
     [NbConvertApp] Converting notebook README.ipynb to markdown
-    [NbConvertApp] Writing 3661 bytes to README.md
+    [NbConvertApp] Writing 3256 bytes to README.md
 
