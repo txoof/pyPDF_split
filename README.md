@@ -33,15 +33,18 @@ aaron.ciuffo@gmail.com
 <a name='FullInstructions'></a>
 ## Full Instructions
 1. Download the latest version of pyPDF_split [here](https://github.com/txoof/pyPDF_split/blob/master/pypdfsplit.pkg)
-2. Locate the downloaded file in the Downloads folder and double click on the `.pkg` file
-   * You will likely need to enter and administrator password
-3. The program will be installed in the `/Applications` folder
-2. When prompted, locate a PDF that needs to be split by clicking on the `Browse` button -- this will launch a Finder window allowing you find and choose a single PDF file
+2. Locate the downloaded file in the Downloads folder and double click on the `.zip` file to extract it
+3. Right click on the pyPDF_Split and choose "Open" in the following dialogue choose "Open" again - Note you may have to do this TWICE.
+   - ![Open Dialogue](./docs/open_dialogue.png)
+
+4. After approving the application, drag it into the `Applications` Folder.
+5. Double click on the pyPDF_Split application to launch it
+6. When prompted, locate a PDF that needs to be split by clicking on the `Browse` button -- this will launch a Finder window allowing you find and choose a single PDF file
     ![GUI Browse Image](./docs/gui_browse.png)
-3. Click `Ok` when ready
-4. pyPDF_split will split the PDF into a sub-folder within the same folder as the original pdf:
+7. Click `Ok` when ready
+8. pyPDF_split will split the PDF into a sub-folder within the same folder as the original pdf:
     ![Output folder with split pdfs](./docs/output_split.png)
-5. Split another PDF by clicking `Browse` or `Cancel` to quit
+9. Split another PDF by clicking `Browse` or `Cancel` to quit
 
 ## Building pyPDF_Split
 Build this script in a pyenv/pipenv with TK built in.
@@ -56,12 +59,4 @@ $ pipenv run python -m ipykernel install --user --name="${projectName}"
 ```
 $ ./build.sh
 ```
-
-
-```python
-!jupyter-nbconvert --to markdown README.ipynb
-```
-
-    [NbConvertApp] Converting notebook README.ipynb to markdown
-    [NbConvertApp] Writing 3661 bytes to README.md
-
+4. The executable will be created in the `./dist/` folder.
