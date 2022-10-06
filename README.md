@@ -17,39 +17,35 @@ Contact Information:
 aaron.ciuffo@gmail.com
 
 
-## Quick Start
-**NOTE:** If this is the first time you've run this program, please see the [full instructions](#FullInstructions) below.
+## Instructions
 
-#### Download:
-* [pyPDF Split for Intel (older Macs)](https://github.com/txoof/pyPDF_split/raw/master/pypdfsplit_intel.pkg)
-* [pyPDF Split for ARM (newer Macs)](https://github.com/txoof/pyPDF_split/raw/master/pypdfsplit_arm.zip)
-  * **NOTE:** this must be moved manualy into the applications folder and launched with an admin password the first time
+### Download:
 
-1. Launch the `py_pdfsplit` application from your `Applications` folder by double clicking on it.
-2. When prompted, locate a PDF that needs to be split by clicking on the `Browse` button -- this will launch a Finder window allowing you find and choose a single PDF file
-    ![GUI Browse Image](./docs/gui_browse.png)
-3. Click `Ok` when ready
-4. pyPDF_split will split the PDF into a sub-folder within the same folder as the original pdf:
+* [pyPDF Split for all macs](https://github.com/txoof/pyPDF_split/blob/master/pypdfsplit-unsigned-i386.zip)
+* [pyPDF Split for ARM (newer Macs)](https://github.com/txoof/pyPDF_split/blob/master/pypdfsplit-unsigned-arm.zip)
+ 
+## First Run
+
+1. Unzip the zip file
+2. Locate the pyPDF_split application in the newly unzipped folder and drag it into your `Applications` folder
+3. Locate the pyPDF_split application in the `Applications` folder and **RIGHT CLICK** on the application. 
+    - choose "Open". You may see several warning screens (see below), this is normal. Choose 'Open' each time
+    - You may need to do this step at least two times.
+    - ![Open Dialogue](./docs/open_dialogue.png)
+
+## Splitting PDFs
+
+1.  When prompted, locate a PDF that needs to be split by clicking on the `Browse` button -- this will launch a Finder window allowing you find and choose a single PDF file
+    - ![GUI Browse Image](./docs/gui_browse.png)
+5. Click `Ok` when ready
+6. pyPDF_split will split the PDF into a sub-folder within the same folder as the original pdf:
     ![Output folder with split pdfs](./docs/output_split.png)
-5. Split another PDF by clicking `Browse` or `Cancel` to quit
+7. Split another PDF by clicking `Browse` or `Cancel` to quit
 
-<a name='FullInstructions'></a>
-## Full Instructions
-1. Download the latest version of pyPDF_split [here](https://github.com/txoof/pyPDF_split/blob/master/pypdfsplit.pkg)
-2. Locate the downloaded file in the Downloads folder and double click on the `.zip` file to extract it
-3. Right click on the pyPDF_Split and choose "Open" in the following dialogue choose "Open" again - Note you may have to do this TWICE.
-   - ![Open Dialogue](./docs/open_dialogue.png)
 
-4. After approving the application, drag it into the `Applications` Folder.
-5. Double click on the pyPDF_Split application to launch it
-6. When prompted, locate a PDF that needs to be split by clicking on the `Browse` button -- this will launch a Finder window allowing you find and choose a single PDF file
-    ![GUI Browse Image](./docs/gui_browse.png)
-7. Click `Ok` when ready
-8. pyPDF_split will split the PDF into a sub-folder within the same folder as the original pdf:
-    ![Output folder with split pdfs](./docs/output_split.png)
-9. Split another PDF by clicking `Browse` or `Cancel` to quit
 
 ## Building pyPDF_Split
+
 Build this script in a pyenv/pipenv with TK built in.
 1. See [this Gist](https://gist.github.com/txoof/675e72d43f1bfbade04fdcec99ff4085) for complete instructions for setting up a working pyenv with TK, pipenv and Jupyter
 2. Set up a Python 3+ jupyter kernel for further editing from within this repo directory:
